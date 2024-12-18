@@ -27,9 +27,10 @@ namespace Demosaicing_Plugin_for_AliceInCradle
     {
         [HarmonyPatch(typeof(MosaicShower), "FnDrawMosaic")]
         [HarmonyPrefix]
-        public static void FnDrawMosaic(ref bool __result)
+        public static bool FnDrawMosaic(ref bool __result)
         {
-            
+            __result = false;
+            return false;
         }
     }
 }
