@@ -1,19 +1,17 @@
 # AliceInCradleMosaicPatch
-Ò»¸öÊÊÓÃÓÚÓÎÏ· _Alice In Cradle_ µÄÈ¥ÂíÈü¿Ë²¹¶¡
+ä¸€ä¸ªé€‚ç”¨äºæ¸¸æˆ _Alice In Cradle_ çš„å»é©¬èµ›å…‹è¡¥ä¸
 
-__´Ë²¹¶¡²»ÊÜ Alice In Cradle µÄ¹Ù·½Ö§³Ö__
+__æ­¤è¡¥ä¸ä¸å— Alice In Cradle çš„å®˜æ–¹æ”¯æŒ__
 
-# °²×°ºÍÊ¹ÓÃ
-1. °²×° [BepInEx5](https://github.com/BepInEx/BepInEx/tree/v5-lts)
-2. clone ²¢±àÒë´Ë²Ö¿â
-3. ½«¶ÔÓ¦ÎÄ¼ş(AliceInCradleMosaicPatch.dll)¸´ÖÆµ½ BepInEx\plugins
+# å®‰è£…å’Œä½¿ç”¨
+1. å®‰è£… [BepInEx5](https://github.com/BepInEx/BepInEx/tree/v5-lts)
+2. clone å¹¶ç¼–è¯‘æ­¤ä»“åº“
+3. å°†å¯¹åº”æ–‡ä»¶(AliceInCradleMosaicPatch.dll)å¤åˆ¶åˆ° BepInEx\plugins
 
-# ×¢Òâ
-1. Ö»ÓĞÔÚ`½¡È«Ä£Ê½`ÉèÖÃÎª __¹Ø__ Ê±´Ë²å¼ş²Å»áÉúĞ§, ÇÒÖ»»áÔÚÆô¶¯Ê±¼ì²âÓÎÏ·ÉèÖÃ, ÖĞÍ¾ĞŞ¸ÄÉèÖÃÎŞĞ§
-
-2. µÚÒ»´ÎÊ¹ÓÃÊ±½¨ÒéÏÈÔÚ DepInEx/config/DepInEx.cfg ÖĞ Enable Logging.Console, ²é¿´²å¼şÊÇ·ñÕı³£¹¤×÷
+# æ³¨æ„
+ç¬¬ä¸€æ¬¡ä½¿ç”¨æ—¶å»ºè®®å…ˆåœ¨ DepInEx/config/DepInEx.cfg ä¸­ Enable Logging.Console, æŸ¥çœ‹æ’ä»¶æ˜¯å¦æ­£å¸¸å·¥ä½œ
 <details>
-<summary>ÀıÈçÔÚÎÒµÄWindows»·¾³ÉÏÌáÊ¾È±ÉÙ System.Runtime ¿â, ±¨´íÈçÏÂ</summary>
+<summary>ä¾‹å¦‚åœ¨æˆ‘çš„Windowsç¯å¢ƒä¸Šæç¤ºç¼ºå°‘ System.Runtime åº“, æŠ¥é”™å¦‚ä¸‹</summary>
 [Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
 Stack trace:
 UnityEngine.GameObject:AddComponent(Type)
@@ -24,10 +22,6 @@ Fusion.NetworkProjectConfig:ResetStatics()
 Fusion.NetworkRunner:ResetAllSimulationStatics()
 </details>
 
-* ´ËÊ±°Ñ System.Runtime.dll Á¬Í¬±àÒë³öµÄ²å¼şÒ»Æğ¸´ÖÆµ½ BepInEx\plugins ¼´¿É, È»ºóÖØĞÂÆô¶¯ÓÎÏ·
+* æ­¤æ—¶æŠŠ System.Runtime.dll è¿åŒç¼–è¯‘å‡ºçš„æ’ä»¶ä¸€èµ·å¤åˆ¶åˆ° BepInEx\plugins å³å¯, ç„¶åé‡æ–°å¯åŠ¨æ¸¸æˆ
 
-* ×¢Òâ System.Runtime.dll µÄ³ö´¦, ½¨ÒéÊ¹ÓÃ dotnet/sdk µÄ×ÓÎÄ¼ş¼ĞÖĞµÄÎÄ¼ş, ÆäËûµØ·½µÄ»á±¨ÆäËû´íÎó
-# ÆäËû
-
-·Ç³£¸ĞĞ»¤Ò¤Ê¤æ¤¢ºÍ˜òÒ°¤ß¤º¤ÏÁ½Î»´ó´ó¿ª·¢µÄÓÎÏ·  
-**Åµ°¬¶ûÕæµÄÌ«¿É°®ÁË!**
+* æ³¨æ„ System.Runtime.dll çš„å‡ºå¤„, å»ºè®®ä½¿ç”¨ dotnet/sdk çš„å­æ–‡ä»¶å¤¹ä¸­çš„æ–‡ä»¶, å…¶ä»–åœ°æ–¹çš„ä¼šæŠ¥å…¶ä»–é”™è¯¯
